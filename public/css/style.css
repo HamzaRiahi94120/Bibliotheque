@@ -1,0 +1,126 @@
+/* GENERAL */
+
+body {
+  background: black !important;
+  color: #fff;
+}
+
+section {
+  margin: 25px auto;
+  width: 750px;
+}
+
+/* HEADER */
+
+header {
+  background: brown;
+  text-align: center;
+  padding: 15px 0;
+  display: inline;
+}
+header nav {
+  display: inline;
+}
+header li {
+  display: inline;
+  padding: 0 5px;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+header nav a:hover,
+header nav a:focus {
+  background: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+/* MENU */
+
+#menu {
+  float: left;
+  margin-right: 50px;
+}
+#menu li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+#menu a:hover,
+#menu a:focus {
+  background: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+/* CONTENU */
+
+.thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+/* BUTTON */
+
+.update p {
+  margin-top: 75px;
+}
+.update a {
+  margin-left: 75px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: white;
+}
+.update a:hover {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* MENU IMAGE */
+
+#selectPicture img {
+  display: inline;
+}
+#selectPicture a {
+  padding: 0 10px;
+}
+
+/* PAGINAGE */
+
+.paginage a:hover {
+  padding: 10px;
+  background: black;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.paginage .active {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.paginage a {
+  padding: 10px;
+  margin: 0 3px;
+  background: white;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.paginage {
+  text-align: center;
+}
