@@ -77,5 +77,5 @@ try {
         listManga();
     }
 } catch (Exception $e) {
-    echo 'Erreur : ' . $e->getMessage();
+    echo 'Erreur :  ' . $e->getMessage();
 }
